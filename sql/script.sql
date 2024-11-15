@@ -13,4 +13,4 @@ CREATE TABLE IF NOT EXISTS mascota (
   PRIMARY KEY (id_mascota)
 );
 
-INSERT INTO mascota (id_mascota, nombre_mascota, tipo_mascota, raza, sexo, nombre_cliente, fecha_nacimiento) values (1, 'Jefferey', 'perro', 'pitbull', 'Male', 'Pickthorne', '2022-10-14'), (2, 'Brocky', 'gato', 'ciames', 'Male', 'Hazel', '2023-01-02'), (3, 'Penelopa', 'ave', 'canario', 'Female', 'Boddie', '2024-11-11'), (4, 'Morie', 'perro', 'pastor', 'Male', 'Gotts', '2023-11-03'), (5, 'Mei', 'gato', 'Birmano', 'Female', 'Van Oort', '2023-03-21');
+INSERT INTO mascota (id_mascota, nombre_mascota, tipo_mascota, raza, sexo, nombre_cliente, fecha_nacimiento) values (1, 'Jefferey', 'perro', 'pitbull', 'masculino', 'Pickthorne', '2022-10-14'), (2, 'Brocky', 'gato', 'ciames', 'masculino', 'Hazel', '2023-01-02'), (3, 'Penelopa', 'ave', 'canario', 'femenino', 'Boddie', '2024-11-11'), (4, 'Morie', 'perro', 'pastor', 'masculino', 'Gotts', '2023-11-03'), (5, 'Mei', 'gato', 'Birmano', 'femenino', 'Van Oort', '2023-03-21');
